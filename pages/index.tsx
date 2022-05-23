@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import RecentSection from '../components/RecentSection'
 import SearchBox from '../components/SearchBox'
+import SubscribeToNewsLetter from '../components/SubscribeToNewsLetter'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <SearchBox />
         <RecentSection />
         <Feedback />
+        <SubscribeToNewsLetter />
       </main>
     </div>
   )
